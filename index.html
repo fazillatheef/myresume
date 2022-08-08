@@ -8,15 +8,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="./css/resume.css">
 </head>
 
 <body>
 
     <div class="container mt-5">
         <div class="row">
-            <div class="col-2 p-0" style="width:150px;">
+            <div class="col-sm-4 col-lg-2 p-0  d-flex justify-content-end">
                 <img class="rounded-circle" src="./img/profile.jpg" height="150px" />
             </div>
+            <div class="col-sm-auto"></div>
             <div class="col my-auto">
                 <div class="row">
                     <h1>Fazil Abdul Lathif</h1>
@@ -49,10 +51,11 @@
             </div>
         </div>
         <div class="row pt-3">
-            <div class="col-sm-auto">
+            <div class="col-sm-4 col-lg-2">
                 <h5><i class="bi bi-clipboard-check-fill"></i>
                     &nbsp;Technical Skills</h5>
             </div>
+            <div class="col-sm-auto"></div>
             <div class="col">
                 <button type="button" class="btn btn-outline-secondary mb-1 pt-0">Python | 4 years</button>
                 <button type="button" class="btn btn-outline-secondary mb-1 pt-0">SQL | 14 years</button>
@@ -63,15 +66,100 @@
                 <button type="button" class="btn btn-outline-secondary mb-1 pt-0">Flask | 2 years</button>
                 <button type="button" class="btn btn-outline-secondary mb-1 pt-0">Numpy | 3 years </button>
                 <button type="button" class="btn btn-outline-secondary mb-1 pt-0">JavaScript | 3 years </button>
-                <button type="button" class="btn btn-outline-secondary mb-1 pt-0">jQuery | 1 years</button>
+                <button type="button" class="btn btn-outline-secondary mb-1 pt-0">jQuery | 1 year</button>
                 <button type="button" class="btn btn-outline-secondary mb-1 pt-0">Data Engineering | 3 years</button>
             </div>
         </div>
         <div class="row pt-3">
-            <div class="col-sm-auto">
+            <div class="col-sm-4 col-lg-2">
                 <h5><i class="bi bi-person-workspace"></i>&nbsp;Work History</h5>
             </div>
+            <div class="col col-sm-auto position-relative">
+                <div class="row prj_head position-absolute"></div>
+                <div class="row prj_tail position-absolute"></div>
+            </div>
+            <div class="col">
+
+                <div class="ant-timeline-item-content">
+                    <div class="ant-row ant-row-end" style="row-gap: 0px;">
+                        <div class="ant-col ant-col-12">
+                            <div class="work-history-position">Software Designer</div>
+                            <div class="work-history-company">Nationwide Building Society,UK(TCS)</div>
+                        </div>
+                        <div class="ant-col ant-col-12">
+                            <div class="ant-row ant-row-end" style="row-gap: 0px;">
+                                <div class="work-history-date">October 2019 - Present</div>
+                            </div>
+                            <div class="ant-row ant-row-end" style="row-gap: 0px;">
+                                <div class="work-history-date">2 yrs&nbsp;10 mos</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="ant-space ant-space-vertical" style="gap: 8px;">
+                            <div class="ant-space-item" style="">
+                                <div>
+                                    <div class="project-heading">PCI DSS PAN remediation project</div>
+                                    <p class="project-url"><a class="project-url" target="_blank"
+                                            rel="noopener noreferrer" href=""></a></p>
+                                    <p class="project-description">This project required me to create high level and
+                                        low-level design documents for backend (Unisys Mainframe). Performed data
+                                        reconciliation and analysis using Python (using pandas library) to further
+                                        produce the high-level design. Pandas(python) was used to reconcile 4
+                                        Million PANs across three systems. I also produced low level design for
+                                        critical components and constructed proof of concept code for the
+                                        development team. Also performed review for development and Test team
+                                        artefacts. I worked along with another designer to provide summary of
+                                        discrepancies that we found during our analysis.</p>
+                                    <p class="project-outcome">● Helped to remediate 4 million PANs stored in the
+                                        Customer database<br>● Identified 250K incorrect credit cards that would
+                                        cause issues with the PAN migration<br></p><span
+                                        class="ant-tag project-skill-tag"
+                                        style="background-color: white;">Python</span><span
+                                        class="ant-tag project-skill-tag"
+                                        style="background-color: white;">Pandas</span><span
+                                        class="ant-tag project-skill-tag"
+                                        style="background-color: white;">Designer</span>
+                                </div>
+                            </div>
+                            <div class="ant-space-item">
+                                <div>
+                                    <div class="project-heading">Covid-19 Payment holiday</div>
+                                    <p class="project-url"><a class="project-url" target="_blank"
+                                            rel="noopener noreferrer" href=""></a></p>
+                                    <p class="project-description">Due to temporary shutdown of work places and many
+                                        small businesses, customers needed payment holiday to ensure that their
+                                        credit ratings were not affected. Worked on a quick agile project to
+                                        implement changes in a personal loan system.<br><br>As part of this project,
+                                        I created a tactical solution using python to extend personal loans to
+                                        provide payment holidays for customers while reducing impact on their credit
+                                        scores. Further I created another suite of python programs that used SQLite
+                                        database to re-write loans that could not be extended further. The tactical
+                                        solutions were used as a prototype to build the strategic solution on Unisys
+                                        mainframe. I worked as a lead for this project, while writing few COBOL
+                                        programs and batch runstreams myself. From initial design to warranty
+                                        support, I was involved in reviews and discussions with third parties like
+                                        Experian, Transunion and other credit report agencies.</p>
+                                    <p class="project-outcome">● Implemented a tactical solution very quickly to
+                                        help the society to better serve it's customers <br>● Provided Payment
+                                        holiday for around 50K customers during the Covid-19 pandemic<br></p><span
+                                        class="ant-tag project-skill-tag"
+                                        style="background-color: white;">SQLite</span><span
+                                        class="ant-tag project-skill-tag"
+                                        style="background-color: white;">Python</span><span
+                                        class="ant-tag project-skill-tag"
+                                        style="background-color: white;">COBOL</span><span
+                                        class="ant-tag project-skill-tag" style="background-color: white;">Agile</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div><button type="button" class="ant-btn ant-btn-link more-projects-btn"><span>See more
+                            projects</span></button>
+                </div>
+            </div>
+            </li>
         </div>
+    </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
