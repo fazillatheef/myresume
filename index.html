@@ -4,15 +4,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Fazil Abdul Lathif</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./css/resume.css">
 </head>
 
 <body>
-
+    <div class="position-fixed top-0 end-0 mt-2 me-2"><a class="btn btn-sm btn-success"
+            href="https://fazillatheef.github.io/myresume/">Read
+            Online</a></div>
     <div class="container mt-5">
         <div class="row">
             <div class="col-sm-4 col-lg-2 p-0  d-flex justify-content-end">
@@ -57,11 +59,11 @@
             </div>
             <div class="col-sm-auto"></div>
             <div class="col">
-                <button type="button" class="btn btn-outline-secondary mb-1 pt-0">Python | 4 years</button>
+                <button type="button" class="btn btn-outline-secondary mb-1 pt-0">Python | 3 years</button>
                 <button type="button" class="btn btn-outline-secondary mb-1 pt-0">SQL | 14 years</button>
                 <button type="button" class="btn btn-outline-secondary mb-1 pt-0">COBOL | 14 years</button>
                 <button type="button" class="btn btn-outline-secondary mb-1 pt-0">Git | 3 years</button>
-                <button type="button" class="btn btn-outline-secondary mb-1 pt-0">SQLite | 4 years </button>
+                <button type="button" class="btn btn-outline-secondary mb-1 pt-0">SQLite | 3 years </button>
                 <button type="button" class="btn btn-outline-secondary mb-1 pt-0">Pandas | 3 years</button>
                 <button type="button" class="btn btn-outline-secondary mb-1 pt-0">Flask | 2 years</button>
                 <button type="button" class="btn btn-outline-secondary mb-1 pt-0">Numpy | 3 years </button>
@@ -72,7 +74,7 @@
         </div>
         <div class="row pt-3">
             <div class="col-sm-4 col-lg-2">
-                <h5><i class="bi bi-person-workspace"></i>&nbsp;Work History</h5>
+                <h5><i class="material-icons inline-icon">work</i>&nbsp;Work History</h5>
             </div>
             <div class="col col-sm-auto position-relative">
                 <div class="row prj_head position-absolute"></div>
@@ -89,19 +91,16 @@
                             <h5>Nationwide Building Society,UK(TCS)</h5>
                         </div>
                     </div>
-                    <div class="col border">
-                        <div class="row">
-                            <div class="work-history-date">October 2019 - Present</div>
-                        </div>
-                        <div class="row">
-                            <div class="work-history-date">2 yrs&nbsp;10 mos</div>
+                    <div class="col">
+                        <div class="row text-end">
+                            <div class="text-muted"><b>October 2019 - Present<br>2 yrs&nbsp;10 mos</b></div>
                         </div>
                     </div>
                     <div>
                         <div>
                             <div class="pt-3">
                                 <b>PCI DSS PAN remediation project</b>
-                                <p>This project required me to create high level and
+                                <p class="text-justify display-block">This project required me to create high level and
                                     low-level design documents for backend (Unisys Mainframe). Performed data
                                     reconciliation and analysis using Python (using pandas library) to further
                                     produce the high-level design. Pandas(python) was used to reconcile 4
@@ -118,9 +117,9 @@
                             </div>
                             <div class="pt-3">
                                 <b>Covid-19 Payment holiday</b>
-                                <p>Due to temporary shutdown of work places and many
+                                <p class="text-justify display-block">Due to temporary shutdown of work places and many
                                     small businesses, customers needed payment holiday to ensure that their
-                                    credit ratings were not affected. Worked on a quick agile project to
+                                    credit ratings were not impacted. Worked on a quick agile project to
                                     implement changes in a personal loan system.<br><br>As part of this project,
                                     I created a tactical solution using python to extend personal loans to
                                     provide payment holidays for customers while reducing impact on their credit
@@ -138,6 +137,245 @@
                                 <button type="button" class="btn btn-outline-secondary mb-1 pt-0 pb-0">SQLite</button>
                                 <button type="button" class="btn btn-outline-secondary mb-1 pt-0 pb-0">COBOL</button>
                                 <button type="button" class="btn btn-outline-secondary mb-1 pt-0 pb-0">Agile</button>
+                            </div>
+                            <div class="pt-3">
+                                <b>Money Laundering Regulation project</b>
+                                <p class="text-justify display-block">Due to new regulations in EU, client wanted to
+                                    collect additional customer data related to Country of Birth and Employment. I was
+                                    involved in creating the batch designs and to work on a complex
+                                    change in the customer de-duplication process.<br>Created design for batch and
+                                    online programs on Unisys mainframe for Money laundering regulatory(MLR) project.
+                                    Was involved in reviewing Build and Test team work. Python was used to create test
+                                    data for 11 million records to Volume test the migration process on the Unisys
+                                    mainframe.</p>
+                                <p>● Implemented API and database changes to MLR data in Unisys mainframe
+                                    <br>● Implemented logic to de-duplicate customer information related to the new MLR
+                                    data<br>
+                                </p>
+                                <button type="button" class="btn btn-outline-secondary mb-1 pt-0 pb-0">Python</button>
+                            </div>
+                            <div class="pt-3">
+                                <b>Batch explorer and cross reference tool</b>
+                                <p class="text-justify display-block">As a process improvement, I thought to create a
+                                    web application using python, flask and SQLite that can be hosted within the team.
+                                    The idea was to generate rich interactive diagrams using data from runstreams, batch
+                                    scheduler and programs. This website front end was created using vis.js and jquery
+                                    javascript library. I wrote a multiple parsers to read runstreams, programs,
+                                    database tables, copy procs and sub-programs and populated a graph object that I
+                                    created. This graph object was then used to generate the nodes and edges for vis.js
+                                    library based on the user query. Docker was used to create a container that is
+                                    accessible within the company network. The tool was deployed to a docker container
+                                    and was made available to the team. After regular use of the tool, other engineers
+                                    in the team have requested me to add more functionality. Schedule was created to
+                                    fetch the sources into the docker container on a regular basis.</p>
+                                <p>● Easy UI to search for runstreams, code and batch schedule <br>● Unified code bases
+                                    and generated interactive diagram that could be used by the team to do impact
+                                    analysis for future projects.<br></p>
+                                <button type="button" class="btn btn-outline-secondary mb-1 pt-0 pb-0">Python</button>
+                                <button type="button"
+                                    class="btn btn-outline-secondary mb-1 pt-0 pb-0">Javascript</button>
+                                <button type="button" class="btn btn-outline-secondary mb-1 pt-0 pb-0">Docker</button>
+                                <button type="button" class="btn btn-outline-secondary mb-1 pt-0 pb-0">jQuery</button>
+                                <button type="button" class="btn btn-outline-secondary mb-1 pt-0 pb-0">Flask</button>
+                                <button type="button" class="btn btn-outline-secondary mb-1 pt-0 pb-0">SQLite</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-3">
+            <div class="col-sm-4 col-lg-2">
+            </div>
+            <div class="col col-sm-auto position-relative">
+                <div class="row prj_head position-absolute"></div>
+                <div class="row prj_tail position-absolute"></div>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <h4>Build Lead</h4>
+                        </div>
+                        <div class="row">
+                            <h5>Nationwide Building Society,UK(TCS)</h5>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row text-end">
+                            <div class="text-muted"><b>April 2015 - October 2019<br>4 yrs 6 mos</b></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div class="pt-3">
+                                <b>Foriegn customer deduplication</b>
+                                <p class="text-justify display-block">Created Technical Specification and code for
+                                    projects and provided support to Development and Test teams. Managed a small team in
+                                    UK and India.<br>
+
+                                    Identified a performance problem in a critical batch and implemented a fix to save
+                                    MIPS on Unisys mainframe.<br>
+
+                                    Codes were written in COBOL and LINC on Unisys mainframe</p>
+                                <p>● Enabled society to process foreign customer account openings by minimizing customer
+                                    duplication <br>● Identified and improved Customer De-duplication process and
+                                    provided a savings of around £27,000 per year by reducing MIPS usage on the Unisys
+                                    mainframe<br></p>
+                                <button type="button" class="btn btn-outline-secondary mb-1 pt-0 pb-0">COBOL</button>
+                                <button type="button" class="btn btn-outline-secondary mb-1 pt-0 pb-0">Unisys
+                                    2200</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-3">
+            <div class="col-sm-4 col-lg-2">
+            </div>
+            <div class="col col-sm-auto position-relative">
+                <div class="row prj_head position-absolute"></div>
+                <div class="row prj_tail position-absolute"></div>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <h4>Lead Developer</h4>
+                        </div>
+                        <div class="row">
+                            <h5>Nationwide Building Society,UK(TCS)</h5>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row text-end">
+                            <div class="text-muted"><b>January 2012 - April 2015<br>3 yrs 3 mos</b></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div class="pt-3">
+                                <b>PayM Project</b>
+                                <p class="text-justify display-block">Worked on PayM programme within Nationwide
+                                    Building Society to deliver changes to Nationwide's Systems and operations to allow
+                                    it to participate in the Payment's Council's Mobile Payments Service (MPS). This
+                                    enabled customers to use the 'PayM' Mobile system with the Nationwide accounts held
+                                    by customers. As part of the project, I was involved with the team as a Technical
+                                    Lead in the initial Estimation process, Technical Specification, Construction,
+                                    Review, Unit testing, System testing, System Integration Testing, Deployment and
+                                    Warranty Support.</p>
+                                <p>● Implemented PayM feature for Nationwide Building Society <br>● This allowed
+                                    customers to make payments to friends and families using just their phone number<br>
+                                </p>
+                                <button type="button" class="btn btn-outline-secondary mb-1 pt-0 pb-0">COBOL</button>
+                                <button type="button" class="btn btn-outline-secondary mb-1 pt-0 pb-0">LINC</button>
+                                <button type="button" class="btn btn-outline-secondary mb-1 pt-0 pb-0">Unisys
+                                    2200</button>
+                            </div>
+                            <div class="pt-3">
+                                <b>Communication point extension project</b>
+                                <p class="text-justify display-block">Worked on a project to upgrade the Customer
+                                    Information System(CIS) to process large number of address, phone numbers and email
+                                    address.
+                                    As part of this project, various system components had to be analyzed, changed and
+                                    tested. Identified and resolved key issues in the project. This included changes to
+                                    data stored in the audit
+                                    tables within CIS. Lot of co-ordination was required as part of the project between
+                                    the onsite and offshore team members. I took the responsibility to consolidate and
+                                    review all changes done at onsite and offshore before the live deployment.</p>
+                                <p>● Increased the capacity of the number of addresses and communication points that can
+                                    be processed by the Customer Information System</p>
+                                <button type="button" class="btn btn-outline-secondary mb-1 pt-0 pb-0">COBOL</button>
+                                <button type="button" class="btn btn-outline-secondary mb-1 pt-0 pb-0">LINC</button>
+                                <button type="button" class="btn btn-outline-secondary mb-1 pt-0 pb-0">Unisys
+                                    2200</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-3">
+            <div class="col-sm-4 col-lg-2">
+            </div>
+            <div class="col col-sm-auto position-relative">
+                <div class="row prj_head position-absolute"></div>
+                <div class="row prj_tail position-absolute"></div>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <h4>Developer and On Call Support</h4>
+                        </div>
+                        <div class="row">
+                            <h5>Nationwide Building Society,UK(TCS)</h5>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row text-end">
+                            <div class="text-muted"><b>April 2011 - January 2012<br>9 mos</b></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div class="pt-3">
+                                <b>Production Support</b>
+                                <p class="text-justify display-block">Managed support activities at onsite for the
+                                    Customer Information System in the Unisys Mainframe Environment. Tasks involved were
+                                    mainly code maintenance and Incident management. Mainly worked on RDMS database with
+                                    batch and online programs that were written mainly in COBOL and LINC.</p>
+                                <p>● Resolved L3(Code fixes) incidents within SLAs Provided <br>● On call support 24x7
+                                    on a 1 week/month rota<br></p>
+                                <button type="button" class="btn btn-outline-secondary mb-1 pt-0 pb-0">COBOL</button>
+                                <button type="button" class="btn btn-outline-secondary mb-1 pt-0 pb-0">LINC</button>
+                                <button type="button" class="btn btn-outline-secondary mb-1 pt-0 pb-0">Unisys
+                                    2200</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pt-3">
+            <div class="col-sm-4 col-lg-2">
+            </div>
+            <div class="col col-sm-auto position-relative">
+                <div class="row prj_head position-absolute"></div>
+                <div class="row prj_tail position-absolute"></div>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <h4>Programmer</h4>
+                        </div>
+                        <div class="row">
+                            <h5>SDWORX ,Kochi ,India(TCS)</h5>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row text-end">
+                            <div class="text-muted"><b>November 2007 - April 2011<br>3 yrs 5 mos</b></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div class="pt-3">
+                                <b>Customer accounting system</b>
+                                <p class="text-justify display-block">Worked for SDWORX(Belgium) from offshore location
+                                    (Cochin, Kerala). During this period, was part of a team that developed COBOL Batch
+                                    applications and Stored procedures in IBM Mainframe for a Customer Accounting
+                                    application. In November 2010, trained 40 associates at TCS training centre at
+                                    Trivandrum, Kerala for a period of one month.</p>
+                                <p>● Created a billing system for the customer accounting application that is used by a
+                                    social secretariat in Brussels <br>● The application front end was created in .Net
+                                    and the backend(stored procedures) were written in COBOL on IBM mainframe(zOS).<br>
+                                </p>
+                                <button type="button" class="btn btn-outline-secondary mb-1 pt-0 pb-0">zOS</button>
+                                <button type="button" class="btn btn-outline-secondary mb-1 pt-0 pb-0">COBOL</button>
+                                <button type="button" class="btn btn-outline-secondary mb-1 pt-0 pb-0">REXX</button>
                             </div>
                         </div>
                     </div>
